@@ -1,7 +1,6 @@
-import './App.css';
 import Navbar from "./components/Navbar";
 import BookingSummary from './components/BookingSummary';
-import DetailsForm from './components/DetailsForm';
+import Forms from './components/Forms';
 import PaymentMode from './components/PaymentMode';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
@@ -11,7 +10,7 @@ function App() {
     <div className='container'>
       <Navbar/>
       <BookingSummary/>
-      <DetailsForm/>
+      <Forms/>
       <PaymentMode/>
       <FAQ/>
       <Footer/>

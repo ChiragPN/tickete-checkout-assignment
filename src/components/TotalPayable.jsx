@@ -1,13 +1,13 @@
 import React from 'react'
 import greenpiggy from '../assets/icons/greenpiggy.svg'
-import blackinfo from '../assets/icons/blackinfo.svg'
+// import blackinfo from '../assets/icons/blackinfo.svg'
 
 function TotalPayable() {
   return (
     <div className='frame-785 px-4'>
         <div className="frame-845 mt-14">
             <div className="frame-949 space-y-3">
-                <div className="badge border-2 border-solid border-[#B4DFC4] text-sm px-2 py-1 flex items-center justify-center space-x-2 bg-[#F2FCF5] w-fit rounded-full">
+                <div className="badge border-2 border-solid border-[#B4DFC4] text-sm px-3 py-1 flex items-center justify-center space-x-2 bg-[#F2FCF5] w-fit rounded-full">
                     <img src={greenpiggy} alt="piggy" />
                     <p className='font-medium text-[#299764]'>You save price</p>
                 </div>

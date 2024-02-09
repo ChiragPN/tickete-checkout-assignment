@@ -5,7 +5,7 @@ import visa from '../assets/icons/visa.svg';
 import mastercard from '../assets/icons/mastercard.svg';
 import dinersclub from '../assets/icons/dinersclub.svg';
 import greypiggy from '../assets/icons/greypiggy.svg';
-import info from '../assets/icons/info.svg'
+import info from '../assets/icons/info.svg';
 import ConfirmPayButton from '../components/ConfirmPayButton';
 
 function CardPay() {
@@ -59,7 +59,7 @@ function CardPay() {
                         </div>
                     </div>
 
-                    <div className="link flex space-x-2 mt-4 text-[#60646C]">
+                    <div className="link flex space-x-2 mt-4 text-[#60646C] font-medium">
                         {/* <Link></Link> */}
                         <a href='#' className='underline'>Your card will be charged in AED</a>
                         <img src={info} alt="Information" />
