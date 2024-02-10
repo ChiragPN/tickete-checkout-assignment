@@ -8,15 +8,15 @@ function Navbar() {
   return (
     <div>
         <header className='bg-[#F9F9FB40] py-4'>
-            <div className='header flex justify-between md:justify-around items-center px-6 w-[100%]'>
+            <div className='header flex justify-between md:justify-around md:space-x-[350px] items-center w-[100%]'>
                 <img src={logo} alt="tickete" className='hidden md:flex'/>
-                <img src={arrow} alt="arrow" className='flex md:hidden'/>
+                <img src={arrow} alt="arrow" className='flex md:hidden px-4'/>
                 <div className='h-[22px] w-[73px] flex justify-center items-center space-x-1'>
                     <img src={lock} alt="checkout" className='text-[#7E808A]'/>
                     <p className='text-[#60646C] font-medium'>Checkout</p>
                 </div>
-                <div className='h-[22px] w-[73px] flex justify-center items-center md:space-x-1 text-[#1C2024]'>
-                    <img src={help} alt="checkout" />
+                <div className='h-[22px] w-[73px] flex justify-around items-center md:space-x-1 text-[#1C2024]'>
+                    <img src={help} alt="help" />
                     <p className='hidden md:flex'>Help</p>
                 </div>
             </div>

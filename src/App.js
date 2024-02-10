@@ -7,13 +7,28 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='container'>
-      <Navbar/>
-      <BookingSummary/>
-      <Forms/>
-      <PaymentMode/>
-      <FAQ/>
-      <Footer/>
+    <div className='container frame-804'>
+
+      <div className="frame-806">
+        <Navbar/>
+      </div>
+
+      <div className="frame-808 md:flex md:flex-row-reverse md:mx-8">
+        <BookingSummary/>
+        <div>
+          <Forms/>
+          <PaymentMode/>
+        </div>
+      </div>
+      
+      <div className="FAQ md:mx-8">
+        <FAQ/>
+      </div>
+
+      <div className="footer">
+        <Footer/>
+      </div>
+
     </div>
   );
 }

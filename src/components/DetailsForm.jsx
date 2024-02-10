@@ -16,30 +16,32 @@ function DetailsForm() {
                     <input type="text" className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Full Name' required/>
                 </div>
 
-                <div className="code border-2 flex justify-between items-center p-4 w-[100%] rounded-2xl">
-                    <div className='flex items-center space-x-3'>
-                        <img src={globe} alt="Country code" />
-                        <select id="country-code" name="country-code" className='appearance-none' required>
-                            <option value="" className='text-[#60646C]'>Country code</option>
-                            <option value="india">India</option>
-                            <option value="usa">USA</option>
-                            <option value="germany">Germany</option>
-                            <option value="japan">Japan</option>
-                        </select>
+                <div className='flex flex-col md:grid md:grid-cols-2 md:gap-5 gap-y-5'>
+                    <div className="code border-2 flex justify-between items-center p-4 w-[100%] rounded-2xl">
+                        <div className='flex items-center space-x-3 w-[100%]'>
+                            <img src={globe} alt="Country code" />
+                            <select id="country-code" name="country-code" className='appearance-none w-[100%] outline-none text-[#60646C]' required>
+                                <option value="">Country code</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="germany">Germany</option>
+                                <option value="japan">Japan</option>
+                            </select>
+                        </div>
+                        <img src={downarrow} alt="Dropdown" />
                     </div>
-                    <img src={downarrow} alt="Dropdown" />
-                </div>
 
-                <div className="mobile-number">
-                    <input type="tel" maxLength={10} className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Phone Number' required/>
-                </div>
+                    <div className="mobile-number">
+                        <input type="tel" maxLength={10} className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Phone Number' required/>
+                    </div>
 
-                <div className="email">
-                    <input type="email" className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Email' required/>
-                </div>
+                    <div className="email">
+                        <input type="email" className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Email' required/>
+                    </div>
 
-                <div className="confirm-email">
-                    <input type="email" className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Confirm email' required/>
+                    <div className="confirm-email">
+                        <input type="email" className='border-2 rounded-2xl p-4 w-[100%]' placeholder='Confirm email' required/>
+                    </div>
                 </div>
             </div>
         </form>

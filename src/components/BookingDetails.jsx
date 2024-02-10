@@ -29,22 +29,25 @@ function BookingDetails() {
                 <img src={ticket} alt="ticket" />
                 <p className='text-[#1C2024] font-medium'>ticket type - variant</p>
             </div>
-            <div className="frame-961 flex space-x-3">
-                <img src={calendarblank} alt="ticket" />
-                <div className="frame-968 flex flex-col space-y-3">
+
+            <div className="frame-960 flex items-center">
+                <div className="frame-968 flex justify-between items-center space-x-3">
+                    <img src={calendarblank} alt="calendar" />
                     <p className='text-[#1C2024] font-medium'>day, month date</p>
-                    <p className='text-[#60646C]'>Duration: duration</p>
                 </div>
             </div>
-            <div className="frame-960 flex items-center space-x-3">
-                <img src={clock} alt="ticket" />
-                <div className="frame-968 flex flex-col space-y-3">
+            <p className='text-[#60646C] text-sm ml-8'>Duration: duration</p>
+
+            <div className="frame-960 flex items-center">
+                <div className="frame-968 flex justify-between items-center space-x-3">
+                    <img src={clock} alt="clock" />
                     <p className='text-[#1C2024] font-medium'>time</p>
-                    <p className='text-[#60646C]'>Operating hours: time to time</p>
                 </div>
             </div>
+            <p className='text-[#60646C] text-sm ml-8'>Operating hours: time to time</p>
+
             <div className="frame-958 flex space-x-3">
-                <img src={users} alt="ticket" />
+                <img src={users} alt="users" />
                 <p className='text-[#1C2024] font-medium'>5 guests</p>
             </div>
         </div>

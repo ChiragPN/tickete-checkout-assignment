@@ -11,7 +11,7 @@ function FreeCancellation() {
             </div>
         </div>
         <div>
-            <p className='text-[#60646C] text-base'>Tickets can be cancelled by 13th December, 2022.</p>
+            <p className='text-[#60646C] text-lg'>Tickets can be cancelled by 13th December, 2022.</p>
         </div>
     </div>
   )
