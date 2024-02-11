@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar";
-import BookingSummary from './components/BookingSummary';
-import Forms from './components/Forms';
-import PaymentMode from './components/PaymentMode';
-import FAQ from './components/FAQ';
+import BookingSummary from './components/BookingSummary/BookingSummary';
+import Forms from './components/Forms/Forms';
+import PaymentMode from './components/PaymentMode/PaymentMode';
+import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer';
 
 function App() {

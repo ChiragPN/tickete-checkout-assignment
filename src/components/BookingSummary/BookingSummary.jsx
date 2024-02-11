@@ -3,13 +3,13 @@ import BookingDetails from './BookingDetails';
 import PaymentSummary from './PaymentSummary';
 import TotalPayableSummary from './TotalPayableSummary';
 import GallerySummary from './GallerySummary';
-import ConfirmPayButton from './ConfirmPayButton';
+import ConfirmPayButton from '../ConfirmPayButton';
 
 function BookingSummary() {
   return (
     <div className='frame-947 px-4 md:flex md:justify-between md:mt-12'>
         <div className='mt-12 md:mt-0 md:hidden'>
-            <h1 className='text-[#1C2024] text-3xl sm:text-4xl md:text-5xl font-bold'>Confirm & pay</h1>
+            <h1 className='text-[#1C2024] text-3xl md:text-5xl font-bold'>Confirm & pay</h1>
         </div>
 
         <div className="frame-984 md:w-[380px]">

@@ -1,6 +1,6 @@
 import React from 'react'
-import greenpiggy from '../assets/icons/greenpiggy.svg';
-import info from '../assets/icons/info.svg'
+import greenpiggy from '../../assets/icons/greenpiggy.svg';
+import info from '../../assets/icons/info.svg'
 
 function TotalPayableSummary() {
   return (
@@ -13,7 +13,7 @@ function TotalPayableSummary() {
 
             <div className="badge border-2 border-solid border-[#B4DFC4] px-2 py-1 flex items-center justify-start space-x-2 bg-[#E9F9EE] w-fit rounded-full">
                 <img src={greenpiggy} alt="piggy" />
-                <p className='font-medium text-[#299764]'>You save price</p>
+                <p className='font-medium text-[#299764]'>You save &lt;price&gt;</p>
             </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import downarrow from '../assets/icons/downarrow.svg'
+import downarrow from '../../assets/icons/downarrow.svg'
 
 function AddDetails() {
   return (

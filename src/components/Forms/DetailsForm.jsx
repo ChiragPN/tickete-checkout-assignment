@@ -1,6 +1,6 @@
 import React from 'react'
-import globe from '../assets/icons/globe.svg';
-import downarrow from '../assets/icons/downarrow.svg';
+import globe from '../../assets/icons/globe.svg';
+import downarrow from '../../assets/icons/downarrow.svg';
 
 function DetailsForm() {
   return (

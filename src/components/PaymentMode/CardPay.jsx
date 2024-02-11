@@ -1,12 +1,12 @@
 import React from 'react'
-import radio from '../assets/icons/radio.svg';
-import card from '../assets/icons/card.svg';
-import visa from '../assets/icons/visa.svg';
-import mastercard from '../assets/icons/mastercard.svg';
-import dinersclub from '../assets/icons/dinersclub.svg';
-import greypiggy from '../assets/icons/greypiggy.svg';
-import info from '../assets/icons/info.svg';
-import ConfirmPayButton from '../components/ConfirmPayButton';
+import radio from '../../assets/icons/radio.svg';
+import card from '../../assets/icons/card.svg';
+import visa from '../../assets/icons/visa.svg';
+import mastercard from '../../assets/icons/mastercard.svg';
+import dinersclub from '../../assets/icons/dinersclub.svg';
+import greypiggy from '../../assets/icons/greypiggy.svg';
+import info from '../../assets/icons/info.svg';
+import ConfirmPayButton from '../ConfirmPayButton';
 
 function CardPay() {
   return (
@@ -39,11 +39,11 @@ function CardPay() {
                     </div>
 
                     <div className="card-expiry-date">
-                        <input type="date" className='placeholder-[#7E808A] border-2 border-solid border-[#B9BBC6] rounded-2xl p-4 w-[100%]' placeholder='Expiry date' required/>
+                        <input type="text" className='placeholder-[#7E808A] border-2 border-solid border-[#B9BBC6] rounded-2xl p-4 w-[100%]' placeholder='Expiry date' required/>
                     </div>
 
                     <div className="card-cvv">
-                        <input type="number" className='placeholder-[#7E808A] border-2 border-solid border-[#B9BBC6] rounded-2xl p-4 w-[100%]' placeholder='CVV/CVC' required/>
+                        <input type="number" className='placeholder-[#7E808A] border-2 border-solid border-[#B9BBC6] rounded-2xl p-4 w-[100%]' placeholder='&lt;CVV/CVC&gt;' required/>
                     </div>
                 </div>
                 
@@ -52,7 +52,7 @@ function CardPay() {
                     <div className="payment-mode-949 space-y-3 md:space-y-0 md:flex md:flex-row-reverse md:justify-between md:items-center">
                         <div className="badge text-[#E9F9EE] text-sm px-4 py-1 flex items-center justify-center space-x-2 bg-[#299764] w-fit rounded-full">
                             <img src={greypiggy} alt="piggy" />
-                            <p>You save price</p>
+                            <p>You save &lt;price&gt;</p>
                         </div>
 
                         <div className="heading-949 text-xl font-semibold">

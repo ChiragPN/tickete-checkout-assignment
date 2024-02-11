@@ -1,5 +1,5 @@
 import React from 'react'
-import close from '../assets/icons/close.svg';
+import close from '../../assets/icons/close.svg';
 
 function FreeCancellation() {
   return (
